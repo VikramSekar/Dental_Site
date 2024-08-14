@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Dental_Site/static/css/main.963a8df6.css",
+    "main.js": "/Dental_Site/static/js/main.b4f55f38.js",
+    "static/js/453.3b2fe95b.chunk.js": "/Dental_Site/static/js/453.3b2fe95b.chunk.js",
+    "static/media/full-shot-woman-traveling-with-lugagge 1.jpg": "/Dental_Site/static/media/full-shot-woman-traveling-with-lugagge 1.c3c13efdc68366690a19.jpg",
+    "static/media/face-recognition-personal-identification-collage 1.jpg": "/Dental_Site/static/media/face-recognition-personal-identification-collage 1.45aa2b6eb1184788fe4d.jpg",
+    "static/media/dentist-examining-patient-s-teeth 2.jpg": "/Dental_Site/static/media/dentist-examining-patient-s-teeth 2.b3b9bc90f22dea1b7979.jpg",
+    "static/media/mid-adult-couple-discussing-with-financial-advisor-while-analyzing-documents-meeting-office 1.jpg": "/Dental_Site/static/media/mid-adult-couple-discussing-with-financial-advisor-while-analyzing-documents-meeting-office 1.a5f0f24cba6641082220.jpg",
+    "static/media/dentist-doing-check-up-patient 1.jpg": "/Dental_Site/static/media/dentist-doing-check-up-patient 1.f433cb67386426ec5b85.jpg",
+    "static/media/close-up-business-people-shaking-hands-finishing-up-meeting-negotiation-partnership-concepts 1.jpg": "/Dental_Site/static/media/close-up-business-people-shaking-hands-finishing-up-meeting-negotiation-partnership-concepts 1.9b7d736b5ee1504e0a85.jpg",
+    "static/media/banner 1.jpg": "/Dental_Site/static/media/banner 1.273d289ef52d251943d2.jpg",
+    "static/media/Group 34.png": "/Dental_Site/static/media/Group 34.26c3c045c291e5a1b904.png",
+    "static/media/slick.svg": "/Dental_Site/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Dental_Site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Dental_Site/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/Dental_Site/index.html",
+    "static/media/slick.woff": "/Dental_Site/static/media/slick.295183786cd8a1389865.woff",
+    "main.963a8df6.css.map": "/Dental_Site/static/css/main.963a8df6.css.map",
+    "main.b4f55f38.js.map": "/Dental_Site/static/js/main.b4f55f38.js.map",
+    "453.3b2fe95b.chunk.js.map": "/Dental_Site/static/js/453.3b2fe95b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.963a8df6.css",
+    "static/js/main.b4f55f38.js"
+  ]
+}
