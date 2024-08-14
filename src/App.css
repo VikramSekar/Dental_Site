@@ -226,7 +226,7 @@ html {
   padding: 30px 0;
   max-width: 820px;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .hero-section::before {

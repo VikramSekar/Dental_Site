@@ -463,7 +463,7 @@ function App() {
                     <section>
                       <div className="container">
                         <div className="row d-flex justify-content-center">
-                          <div className="col-md-8">
+                          <div className="col-md-10">
                             <div className="cascade-slider_container">
                               <div className="cascade-slider_slides">
                                 {[...Array(itemCount)].map((_, index) => (
@@ -507,7 +507,6 @@ function App() {
 
                   </div>
                   <div class="tab-pane fade" id="pills-profile-2" role="tabpanel" aria-labelledby="pills-profile-tab-2">
-
                     <section>
                       <div className="container">
                         <div className="row d-flex justify-content-center">
@@ -551,8 +550,6 @@ function App() {
                         </div>
                       </div>
                     </section>
-
-
                   </div>
                 </div>
               </div>
