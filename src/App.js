@@ -745,7 +745,7 @@ function App() {
                   <li className='mt-3'>Blog</li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 mb-3" style={{ fontSize: '15px' }}>
+              <div class="col-lg-2 col-md-6 mb-2" style={{ fontSize: '15px' }}>
                 <p>Resources</p>
                 <ul class="list-unstyled">
                   <li>Privacy & Legal</li>
@@ -755,7 +755,7 @@ function App() {
               </div>
             </div>
             <div class="row d-flex justify-content-between align-items-center">
-              <div class="col-md-3 social-icons">
+              <div class="col-md-3 social-icons mt-2">
                 <a href="https://www.instagram.com " target="_blank"><i class="bi bi-instagram text-dark"></i></a>
                 <a href="https://www.twitter.com " target="_blank"><i class="bi bi-twitter-x text-dark"></i></a>
                 <a href="https://www.linkedin.com " target="_blank"><i class="bi bi-linkedin text-dark"></i></a>
@@ -763,7 +763,7 @@ function App() {
                 <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-dark"></i></a>
                 <a href="https://www.quora.com " target="_blank"><i class="bi bi-quora text-dark"></i></a>
               </div>
-              <div class="col-md-6 text-end">
+              <div class="col-md-6 text-md-center mt-2">
                 © 2024 Brand All rights reserved.
               </div>
             </div>
