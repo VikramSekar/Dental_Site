@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dental_Site/static/css/main.963a8df6.css",
-    "main.js": "/Dental_Site/static/js/main.b4f55f38.js",
+    "main.css": "/Dental_Site/static/css/main.c6ac57e6.css",
+    "main.js": "/Dental_Site/static/js/main.13b99c28.js",
     "static/js/453.3b2fe95b.chunk.js": "/Dental_Site/static/js/453.3b2fe95b.chunk.js",
     "static/media/full-shot-woman-traveling-with-lugagge 1.jpg": "/Dental_Site/static/media/full-shot-woman-traveling-with-lugagge 1.c3c13efdc68366690a19.jpg",
     "static/media/face-recognition-personal-identification-collage 1.jpg": "/Dental_Site/static/media/face-recognition-personal-identification-collage 1.45aa2b6eb1184788fe4d.jpg",
@@ -16,12 +16,12 @@
     "static/media/slick.ttf": "/Dental_Site/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/Dental_Site/index.html",
     "static/media/slick.woff": "/Dental_Site/static/media/slick.295183786cd8a1389865.woff",
-    "main.963a8df6.css.map": "/Dental_Site/static/css/main.963a8df6.css.map",
-    "main.b4f55f38.js.map": "/Dental_Site/static/js/main.b4f55f38.js.map",
+    "main.c6ac57e6.css.map": "/Dental_Site/static/css/main.c6ac57e6.css.map",
+    "main.13b99c28.js.map": "/Dental_Site/static/js/main.13b99c28.js.map",
     "453.3b2fe95b.chunk.js.map": "/Dental_Site/static/js/453.3b2fe95b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.963a8df6.css",
-    "static/js/main.b4f55f38.js"
+    "static/css/main.c6ac57e6.css",
+    "static/js/main.13b99c28.js"
   ]
 }
