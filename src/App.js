@@ -755,7 +755,7 @@ function App() {
               </div>
             </div>
             <div class="row d-flex justify-content-between align-items-center">
-              <div class="col-md-7 social-icons mt-2 text-center">
+              <div class="col-md-7 social-icons mt-2">
                 <a href="https://www.instagram.com " target="_blank"><i class="bi bi-instagram text-dark"></i></a>
                 <a href="https://www.twitter.com " target="_blank"><i class="bi bi-twitter-x text-dark"></i></a>
                 <a href="https://www.linkedin.com " target="_blank"><i class="bi bi-linkedin text-dark"></i></a>
@@ -763,8 +763,8 @@ function App() {
                 <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-dark"></i></a>
                 <a href="https://www.quora.com " target="_blank"><i class="bi bi-quora text-dark"></i></a>
               </div>
-              <div class="col-md-5 text-md-center mt-2">
-                © 2024 Brand All rights reserved.
+              <div class="col-md-5 mt-2">
+               <p> © 2024 Brand All rights reserved.</p>
               </div>
             </div>
           </div>
