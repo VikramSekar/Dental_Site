@@ -90,17 +90,17 @@ function App() {
   const steps = [
     {
       id: '1',
-      message: 'Welcome to DentalCare! What is your name?',
+      message: 'What is your name?',
       trigger: 'name',
     },
     {
       id: 'name',
       user: true,
-      trigger: '3',
+      trigger: 'welcome',
     },
     {
-      id: '3',
-      message: 'Nice to meet you, {previousValue}! How can I assist you today?',
+      id: 'welcome',
+      message: 'Welcome {previousValue}, how can I help you today?',
       trigger: 'services',
     },
     {
@@ -160,6 +160,12 @@ function App() {
       end: true,
     },
   ];
+  
+  
+  
+  
+  
+  
   
 
   // Define the chatbot theme
