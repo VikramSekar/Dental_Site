@@ -13,6 +13,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Slider from 'react-slick';
 import Chatbot from 'react-simple-chatbot';
+import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -84,58 +86,94 @@ function App() {
   ];
 
 
+  // Define the steps for the chatbot
   const steps = [
     {
       id: '1',
-      message: 'Hello! What is your name?',
+      message: 'Welcome to DentalCare! What is your name?',
       trigger: 'name',
     },
     {
       id: 'name',
-      user: true, // This indicates that the user will provide an input
-      trigger: 'welcome',
-    },
-    {
-      id: 'welcome',
-      message: 'Welcome {previousValue}! How can I assist you today?',
-      trigger: '2',
-    },
-    {
-      id: '2',
-      options: [
-        { value: '1', label: 'What services do you offer?', trigger: '3' },
-        { value: '2', label: 'Can I book an appointment?', trigger: '4' },
-        { value: '3', label: 'How can I contact support?', trigger: '5' },
-      ],
+      user: true,
+      trigger: '3',
     },
     {
       id: '3',
-      message: 'We offer a variety of services including healthcare consultations and emergency services.',
-      end: true,
+      message: 'Nice to meet you, {previousValue}! How can I assist you today?',
+      trigger: 'services',
     },
     {
-      id: '4',
-      message: 'You can book an appointment through our website or call us directly.',
-      end: true,
+      id: 'services',
+      options: [
+        { value: 'cleaning', label: 'Teeth Cleaning', trigger: 'cleaning' },
+        { value: 'whitening', label: 'Teeth Whitening', trigger: 'whitening' },
+      ],
     },
     {
-      id: '5',
-      message: 'You can contact support via email at support@example.com or call us at (123) 456-7890.',
-      end: true,
+      id: 'cleaning',
+      message: 'Teeth Cleaning helps maintain your oral hygiene by removing plaque and tartar.',
+      trigger: 'contact',
     },
     {
-      id: '6',
-      message: 'Our operating hours are Monday to Friday, 9 AM to 5 PM.',
-      end: true,
+      id: 'whitening',
+      message: 'Teeth Whitening can give you a brighter smile by removing stains.',
+      trigger: 'contact',
     },
     {
-      id: '7',
-      message: 'Yes, we have a loyalty program! Please check our website for more details.',
+      id: 'contact',
+      message: 'Would you like to schedule an appointment or need our contact information?',
+      trigger: 'contact-options',
+    },
+    {
+      id: 'contact-options',
+      options: [
+        { value: 'schedule', label: 'Schedule Appointment', trigger: 'show-schedule' },
+        { value: 'contact', label: 'Contact Information', trigger: 'show-contact' },
+      ],
+    },
+    {
+      id: 'show-schedule',
+      message: 'You can schedule an appointment by visiting our website or calling us.',
+      trigger: 'end-message',
+    },
+    {
+      id: 'show-contact',
+      message: 'You can contact us at 0422 661 9579.',
+      trigger: 'end-message',
+    },
+    {
+      id: 'end-message',
+      message: 'Was this session useful?',
+      trigger: 'feedback',
+    },
+    {
+      id: 'feedback',
+      options: [
+        { value: 'yes', label: 'Yes', trigger: 'thank-you' },
+        { value: 'no', label: 'No', trigger: 'thank-you' },
+      ],
+    },
+    {
+      id: 'thank-you',
+      message: 'Thank you for your feedback!',
       end: true,
     },
   ];
+  
 
-
+  // Define the chatbot theme
+  const theme = {
+    background: '#f5f8fb',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    headerBgColor: '#b1d135',
+    headerFontColor: '#fff',
+    headerFontSize: '15px',
+    botBubbleColor: '#b1d135',
+    botFontColor: '#fff',
+    userBubbleColor: '#fff',
+    userFontColor: '#4a4a4a',
+  }
 
 
 
@@ -192,7 +230,10 @@ function App() {
                         <div class="modal-body">
                           <div className='row d-flex justify-content-center'>
                             <div className='col-md-12'>
-                              <Chatbot style={{ width: '100%' }} steps={steps} />
+                              <ThemeProvider theme={theme}>
+                                <ChatBot style={{width:'100%'}} steps={steps} />
+                              </ThemeProvider>
+
                             </div>
                           </div>
                         </div>
@@ -764,7 +805,7 @@ function App() {
                 <a href="https://www.quora.com " target="_blank"><i class="bi bi-quora text-dark"></i></a>
               </div>
               <div class="col-md-5 mt-2">
-               <p> © 2024 Brand All rights reserved.</p>
+                <p> © 2024 Brand All rights reserved.</p>
               </div>
             </div>
           </div>
