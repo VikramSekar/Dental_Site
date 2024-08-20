@@ -160,13 +160,13 @@ function App() {
       end: true,
     },
   ];
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
 
   // Define the chatbot theme
   const theme = {
@@ -237,7 +237,7 @@ function App() {
                           <div className='row d-flex justify-content-center'>
                             <div className='col-md-12'>
                               <ThemeProvider theme={theme}>
-                                <ChatBot style={{width:'100%'}} steps={steps} />
+                                <ChatBot style={{ width: '100%' }} steps={steps} />
                               </ThemeProvider>
 
                             </div>
